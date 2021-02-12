@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCoordiantorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMAppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMToolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/alert_permission_toolbar"/>
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMAppBarLayout>
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMNestedScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <FrameLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="120dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:textStyle="bold"
+                        android:id="@+id/alert_permission_textview_permission1"/>
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSpinner
+                        android:layout_height="wrap_content"
+                        android:layout_width="120dp"
+                        android:spinnerMode="dialog"
+                        android:layout_gravity="right|center_vertical"
+                        android:id="@+id/alert_permission_spinner_permission1"/>
+
+                </FrameLayout>
+
+            </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <FrameLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="120dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:textStyle="bold"
+                        android:id="@+id/alert_permission_textview_permission2"/>
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSpinner
+                        android:layout_height="wrap_content"
+                        android:layout_width="120dp"
+                        android:spinnerMode="dialog"
+                        android:layout_gravity="right|center_vertical"
+                        android:id="@+id/alert_permission_spinner_permission2"/>
+
+                </FrameLayout>
+
+            </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <FrameLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="120dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:textStyle="bold"
+                        android:id="@+id/alert_permission_textview_permission3"/>
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSpinner
+                        android:layout_height="wrap_content"
+                        android:layout_width="120dp"
+                        android:spinnerMode="dialog"
+                        android:layout_gravity="right|center_vertical"
+                        android:id="@+id/alert_permission_spinner_permission3"/>
+
+                </FrameLayout>
+
+            </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <FrameLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="120dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:textStyle="bold"
+                        android:id="@+id/alert_permission_textview_permission4"/>
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSpinner
+                        android:layout_height="wrap_content"
+                        android:layout_width="120dp"
+                        android:spinnerMode="dialog"
+                        android:layout_gravity="right|center_vertical"
+                        android:id="@+id/alert_permission_spinner_permission4"/>
+
+                </FrameLayout>
+
+            </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <FrameLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="120dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:textStyle="bold"
+                        android:id="@+id/alert_permission_textview_permission5"/>
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSpinner
+                        android:layout_height="wrap_content"
+                        android:layout_width="120dp"
+                        android:spinnerMode="dialog"
+                        android:layout_gravity="right|center_vertical"
+                        android:id="@+id/alert_permission_spinner_permission5"/>
+
+                </FrameLayout>
+
+            </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <FrameLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="120dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:textStyle="bold"
+                        android:id="@+id/alert_permission_textview_permission6"/>
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSpinner
+                        android:layout_height="wrap_content"
+                        android:layout_width="120dp"
+                        android:spinnerMode="dialog"
+                        android:layout_gravity="right|center_vertical"
+                        android:id="@+id/alert_permission_spinner_permission6"/>
+
+                </FrameLayout>
+
+            </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/alert_permission_cardview_permission7">
+
+                <FrameLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="120dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:textStyle="bold"
+                        android:id="@+id/alert_permission_textview_permission7"/>
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSpinner
+                        android:layout_height="wrap_content"
+                        android:layout_width="120dp"
+                        android:spinnerMode="dialog"
+                        android:layout_gravity="right|center_vertical"
+                        android:id="@+id/alert_permission_spinner_permission7"/>
+
+                </FrameLayout>
+
+            </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/alert_permission_cardview_permission8">
+
+                <FrameLayout
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="120dp"
+                        android:layout_gravity="left|center_vertical"
+                        android:textStyle="bold"
+                        android:id="@+id/alert_permission_textview_permission8"/>
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSpinner
+                        android:layout_height="wrap_content"
+                        android:layout_width="120dp"
+                        android:spinnerMode="dialog"
+                        android:layout_gravity="right|center_vertical"
+                        android:id="@+id/alert_permission_spinner_permission8"/>
+
+                </FrameLayout>
+
+            </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+        </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMLinearLayout>
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMNestedScrollView>
+
+</cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCoordiantorLayout>

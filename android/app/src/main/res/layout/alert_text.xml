@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCoordiantorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMAppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMToolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/alert_text_toolbar"/>
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMAppBarLayout>
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMLinearLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            app:errorTextAppearance="@color/Red6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alert_text_textinputlayout">
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMEditText
+                android:padding="5dp"
+                android:lines="3"
+                android:inputType="phone"
+                android:layout_margin="15dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Text..."
+                android:id="@+id/alert_text_edittext"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMLinearLayout>
+
+</cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCoordiantorLayout>

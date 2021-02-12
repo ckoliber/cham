@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ChaM"/>
+
+    <style name="ChaM.Base" parent="ChaM" />
+    <style name="ChaM.Base.ChaMActivity">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ChaM.Base.ChaMAlert">
+
+    </style>
+    <style name="ChaM.Base.ChaMDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="ChaM.Base.ChaMFragment">
+
+    </style>
+    <style name="ChaM.Base.ChaMProgress" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ChaM.UI.ChaMFab"  parent="Widget.Design.FloatingActionButton">
+        <item name="android:layout_margin">5dp</item>
+        <item name="fabSize">mini</item>
+        <item name="rippleColor">@color/White</item>
+        <item name="backgroundTint">@color/Orange5</item>
+    </style>
+
+    <style name="ChaM.Animation" parent="ChaM" />
+    <style name="ChaM.Animation.Ripple">
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="ChaM.Animation.Fade">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+</resources>

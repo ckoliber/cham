@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCoordiantorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMAppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMToolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/alert_number_toolbar"/>
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMAppBarLayout>
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMLinearLayout
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <NumberPicker
+            android:id="@+id/alert_number_numberpicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMLinearLayout>
+
+</cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCoordiantorLayout>

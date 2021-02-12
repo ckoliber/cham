@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCoordiantorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+      ID : type_name_viewtype_[description]
+      activity_start_framelayout_fragment
+    -->
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMAppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMToolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/activity_start_toolbar"/>
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMAppBarLayout>
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_start_framelayout"/>
+
+
+</cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCoordiantorLayout>

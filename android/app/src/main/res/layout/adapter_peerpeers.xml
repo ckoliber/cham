@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ChaM.Animation.Ripple"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/adapter_peerpeers_cardview">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_height="wrap_content">
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMImageView
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="center_vertical"
+            app:imageviewThemeMode="none"
+            android:id="@+id/adapter_peerpeers_imageview_picture" />
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:id="@+id/adapter_peerpeers_textview_name"/>
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMFab
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            app:fabSrc="@drawable/ic_close"
+            android:id="@+id/adapter_peerpeers_fab_remove"/>
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            app:imageviewThemeMode="main"
+            android:id="@+id/adapter_peerpeers_imageview_permission" />
+
+    </LinearLayout>
+
+</cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>

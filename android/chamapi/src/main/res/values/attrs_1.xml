@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ChaMButton">
+        <attr name="buttonThemeMode" format="enum">
+            <enum name="main" value="0"/>
+            <enum name="send" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ChaMProgress">
+        <attr name="progressThemeMode" format="enum">
+            <enum name="main" value="0"/>
+            <enum name="send" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ChaMSwitch">
+        <attr name="switchThemeMode" format="enum">
+            <enum name="main" value="0"/>
+            <enum name="send" value="1"/>
+            <enum name="chatme" value="2"/>
+            <enum name="chatyou" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ChaMCheckBox">
+        <attr name="checkboxThemeMode" format="enum">
+            <enum name="main" value="0"/>
+            <enum name="send" value="1"/>
+            <enum name="chatme" value="2"/>
+            <enum name="chatyou" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ChaMCardView">
+        <attr name="cardviewThemeMode" format="enum">
+            <enum name="main" value="0"/>
+            <enum name="send" value="1"/>
+            <enum name="chatme" value="2"/>
+            <enum name="chatyou" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ChaMTextView">
+        <attr name="textviewThemeMode" format="enum">
+            <enum name="main" value="0"/>
+            <enum name="send" value="1"/>
+            <enum name="chatme" value="2"/>
+            <enum name="chatyou" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ChaMSpinner">
+        <attr name="spinnerThemeMode" format="enum">
+            <enum name="main" value="0"/>
+            <enum name="send" value="1"/>
+            <enum name="chatme" value="2"/>
+            <enum name="chatyou" value="3"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ChaMImageView">
+        <attr name="imageviewThemeMode" format="enum">
+            <enum name="main" value="0"/>
+            <enum name="send" value="1"/>
+            <enum name="chatme" value="2"/>
+            <enum name="chatyou" value="3"/>
+            <enum name="none" value="4"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ChaMEditText">
+        <attr name="edittextThemeMode" format="enum">
+            <enum name="main" value="0"/>
+            <enum name="send" value="1"/>
+            <enum name="toolbar" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ChaMFab">
+        <attr name="fabMode" format="enum">
+            <enum name="small" value="0"/>
+            <enum name="big" value="1"/>
+        </attr>
+        <attr name="fabThemeMode" format="enum">
+            <enum name="main" value="0"/>
+            <enum name="send" value="1"/>
+        </attr>
+        <attr name="fabSrc" format="reference"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,31 @@
+{application, cham,
+ [
+  {description, "ChaM Server Protocol,Powered by KoLiBer."},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {included_applications, [erlcass,zuuid,jiffy,inets]},
+  {mod, { cham_app, []}},
+  {env, [
+    {cham_socket_port,1418},
+    {cham_stun_port,1419},
+    {cham_local_host,"127.0.0.1"},
+    {cham_public_host,"127.0.0.1"},
+    {cham_kernel_cookie,"752ea36b1d569d2d5f281b7095954141e97a8ec6"},
+    {cham_kernel_sname,"cham"},
+    {cham_crypto_key,"f6ae7cb1ed049cb6e7f262b28f49a257402a99084016ada0cc995da07c7f4def49943e7d8e727af27665aa7c76c962787cfc34a1cdf696101241e73f6f1e5f48"},
+    {sms_user,"KoLiBer"},
+    {sms_pass,"140277mhn"},
+    {sms_number,"+98sim"},
+    {scylla_points,"127.0.0.1"},
+    {platform_android_version,"0.0.1"},
+    {platform_android_link,"0.0.1"},
+    {platform_desktop_version,"0.0.1"},
+    {platform_desktop_link,"0.0.1"},
+    {platform_ios_version,"0.0.1"},
+    {platform_ios_link,"0.0.1"}
+    ]}
+ ]}.

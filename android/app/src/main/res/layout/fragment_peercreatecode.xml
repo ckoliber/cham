@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_peercreatecode_swiperefreshlayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                app:errorTextAppearance="@color/Red6"
+                app:counterEnabled="true"
+                app:counterMaxLength="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMEditText
+                    android:padding="5dp"
+                    android:maxLength="6"
+                    android:lines="1"
+                    android:digits="0123456789"
+                    android:inputType="phone"
+                    android:layout_margin="15dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Security Code..."
+                    android:id="@+id/fragment_peercreatecode_edittext_code"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="Call"
+                android:id="@+id/fragment_peercreatecode_button_call"/>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check"
+                android:id="@+id/fragment_peercreatecode_button_check"/>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_peercreatecode_textview_timer"/>
+
+        </LinearLayout>
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSwipeRefreshLayout>
+
+</cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>

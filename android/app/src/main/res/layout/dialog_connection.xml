@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCoordiantorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMAppBarLayout
+        android:id="@+id/dialog_connection_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="256dp">
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:id="@+id/dialog_connection_collapsingtoolbarlayout">
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMToolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                android:id="@+id/dialog_connection_toolbar"/>
+
+        </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCollapsingToolbarLayout>
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMAppBarLayout>
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSwipeRefreshLayout
+        android:id="@+id/dialog_connection_swiperefreshlayout"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMNestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMLinearLayout
+                android:paddingTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/ChaM.Animation.Ripple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:id="@+id/dialog_connection_linerlayout_link">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/Black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:text="Link : "/>
+
+                            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/Black"
+                                android:textSize="15sp"
+                                android:id="@+id/dialog_connection_textview_link"/>
+
+                        </LinearLayout>
+
+                    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ChaM.Animation.Ripple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:id="@+id/dialog_connection_linerlayout_name">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/Black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:text="Name : "/>
+
+                            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/Black"
+                                android:textSize="15sp"
+                                android:id="@+id/dialog_connection_textview_name"/>
+
+                        </LinearLayout>
+
+                    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ChaM.Animation.Ripple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:id="@+id/dialog_connection_linerlayout_bio">
+
+                    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/Black"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:text="Bio : "/>
+
+                            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/Black"
+                                android:textSize="15sp"
+                                android:id="@+id/dialog_connection_textview_bio"/>
+
+                        </LinearLayout>
+
+                    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
+
+                </LinearLayout>
+
+                <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMButton
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:buttonThemeMode="main"
+                    android:visibility="gone"
+                    android:text="Peers"
+                    android:id="@+id/dialog_connection_button_peers" />
+
+            </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMLinearLayout>
+
+        </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMNestedScrollView>
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSwipeRefreshLayout>
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMFab
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:fabSrc="@drawable/ic_message"
+        app:layout_anchor="@id/dialog_connection_appbarlayout"
+        app:layout_anchorGravity="bottom|end"
+        android:visibility="gone"
+        app:fabThemeMode="main"
+        app:fabMode="big"
+        android:id="@+id/dialog_connection_fab_connection" />
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMFab
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:fabSrc="@drawable/ic_camera_24dp"
+        app:layout_anchor="@id/dialog_connection_appbarlayout"
+        app:layout_anchorGravity="bottom|start"
+        android:visibility="gone"
+        app:fabThemeMode="main"
+        app:fabMode="big"
+        android:id="@+id/dialog_connection_fab_picture" />
+
+</cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCoordiantorLayout>

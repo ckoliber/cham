@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_connectioncreatetype_swiperefreshlayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSpinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_connectioncreatetype_spinner_type"/>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Peer Permission : "/>
+
+                <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMButton
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Change"
+                    android:id="@+id/fragment_connectioncreatetype_button_peerpermission"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Join Permission : "/>
+
+                <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMButton
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Peer Type"
+                    android:id="@+id/fragment_connectioncreatetype_button_joinpermission"/>
+
+            </LinearLayout>
+
+            <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:id="@+id/fragment_connectioncreatetype_button_create"/>
+
+        </LinearLayout>
+
+    </cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMSwipeRefreshLayout>
+
+</cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>

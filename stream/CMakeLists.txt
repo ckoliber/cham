@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project(ChaMStream)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+set(CMAKE_C_STANDARD 11)
+set(SOURCE_FILES ${PROJECT_SOURCE_DIR}/src/cham_util.c ${PROJECT_SOURCE_DIR}/src/cham_stream_node.c ${PROJECT_SOURCE_DIR}/src/cham_util.h ${PROJECT_SOURCE_DIR}/src/cham_stream_node.h)
+add_executable(ChaMStream ${SOURCE_FILES})
+target_link_libraries(ChaMStream crypto pthread ${PROJECT_SOURCE_DIR}/libs/libcassandra.so.2.6.0 ${PROJECT_SOURCE_DIR}/libs/libklb.so ${PROJECT_SOURCE_DIR}/libs/libmysqlclient.so)

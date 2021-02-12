@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ChaM.Animation.Ripple"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/adapter_countries_cardview">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:id="@+id/adapter_countries_textview_ccode"/>
+
+        <cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMTextView
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:id="@+id/adapter_countries_textview_name"/>
+
+    </LinearLayout>
+
+</cham.koliber.ir.chamui.ChaMUI.ChaMUI.ChaMCardView>
